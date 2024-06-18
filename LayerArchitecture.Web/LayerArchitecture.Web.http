@@ -1,0 +1,6 @@
+@LayerArchitecture.Web_HostAddress = http://localhost:5026
+
+GET {{LayerArchitecture.Web_HostAddress}}/weather/
+Accept: application/json
+
+###
