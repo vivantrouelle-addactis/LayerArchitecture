@@ -39,7 +39,7 @@ namespace LayerArchitecture.Web.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("export")]
         [Produces(MediaTypeNames.Text.Csv)]
         [ProducesResponseType(typeof(FileContentResult), 200)]
         public IActionResult ExportToCsv()
